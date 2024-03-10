@@ -2,12 +2,12 @@
 Natural Language to SQL using ChatGPT
 
 ## Overview
-Welcome to the Speech-to-SQL Query Converter project! This Python script combines ChatGPT, MySQL, and various libraries to create a voice and text interface for generating SQL queries based on user input. The script makes use of speech recognition, text-to-speech conversion, and ChatGPT natural language processing to simplify the process of formulating SQL queries.
+This Python script combines ChatGPT, MySQL, and various libraries to create a voice and text interface for generating SQL queries based on user input. The script makes use of speech recognition, text-to-speech conversion, and ChatGPT natural language processing to simplify the process of formulating SQL queries.
 
 ## Features
 - **Speech Recognition:** Converts spoken words into text.
-- **Text-to-Speech:** Reads out responses and information.
-- **Voice and Text Interface:** Allows users to choose between voice and text input for query generation.
+- **Text-to-Speech:** Provides audible responses and guidance.
+- **Voice and Text Interface:**  Offers flexibility in input methods
 - **Interactive Prompt:** Guides users through the process of asking for information.
 - **Dynamic SQL Query Generation:** Utilizes FreeGPT to convert user input into valid SQL queries.
 - **MySQL Database Interaction:** Executes the generated SQL query against a MySQL database.
@@ -25,8 +25,8 @@ Update the MySQL connection details in the `main()` function:
 ```python
 mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="1234",
+    user="<user name goes here>",
+    password="<password goes here>",
     database="sakila"
 )
 ```
