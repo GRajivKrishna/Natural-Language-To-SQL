@@ -10,8 +10,8 @@ async def main():
     while True:
         mydb = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="1234",
+            user="<Enter name of the user>",
+            password="<enter password>",
             database="sakila"
         )
         d = {}
